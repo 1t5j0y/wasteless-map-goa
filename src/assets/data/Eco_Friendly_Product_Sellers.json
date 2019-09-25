@@ -1,0 +1,190 @@
+{
+  "type": "FeatureCollection",
+  "name": "Eco-Friendly Product Sellers",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Sustainable Brandz",
+        "description": "Helping restaurants go Plastic free. All Supplies and alternatives instead of plastic. Please contact us. We are helping with conservation, education, and sustainability since 2015. Join our movement.",
+        "categories": [
+          "eco-friendly products",
+          "sales"
+        ],
+        "contact": {
+          "persons": [""],
+          "emails": ["ask@sustainablebrandz.com"],
+          "phones": ["+917741064422"],
+          "address": "",
+          "urls": ["www.instagram.com\/sustainablebrandz", ""]
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9171253,
+          15.2762175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Carry Your Bottle",
+        "description": null,
+        "categories": [
+          "",
+          ""
+        ],
+        "contact": {
+          "persons": [""],
+          "emails": [""],
+          "phones": [""],
+          "address": "",
+          "urls": ["", ""]
+        }        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7745559,
+          15.6006348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ecoposro",
+        "description": "Zero Waste Shop",
+        "categories": [
+          "",
+          ""
+        ],
+        "contact": {
+          "persons": [""],
+          "emails": [""],
+          "phones": "",
+          "address": "",
+          "urls": ["https:\/\/www.facebook.com\/Ecoposro-405986196489724\/", ""]
+        }        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.793741,
+          15.581484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Naree Artisans Movement",
+        "description": "",
+        "categories": [
+          "",
+          ""
+        ],
+        "contact": {
+          "persons": ["Aira Mirchandani"],
+          "emails": ["nareeartisansmovement@gmail.com"],
+          "phones": [""],
+          "address": "Beta Building, First floor. Opp. Shenaz Super Market, St. Inez Panaji 403001",
+          "urls": ["www.facebook.com\/NAM-Naree-Artisans-Movement-174749289343655\/", ""]
+        }        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.818359,
+          15.488021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Dabolim Mahila Paper Bag Masters",
+        "description": "Manufacture and Services - Paper Bag Unit",
+        "categories": [
+          "",
+          ""
+        ],
+        "contact": {
+          "persons": ["Ethel Nunes"],
+          "emails": [""],
+          "phones": [""],
+          "address": "",
+          "area": "Dabolim",
+          "urls": ["", ""]
+        }        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8252,
+          15.396861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Earthytude ",
+        "description": "Biodegradable carry bags, garbage bags made from sugarcane bagasse, paper straws, recycled newspaper pencils, jute grow bags for plants, waste wood toothbrushes with cornstarch bristles, disposable food containers",
+        "categories": [
+          "",
+          ""
+        ],
+        "contact": {
+          "persons": [""],
+          "emails": [" earthytude@gmail.com", "infor@earthytude.com"],
+          "phones": [""],
+          "address": "",
+          "area": "",
+          "urls": ["https:\/\/www.facebook.com\/Earthytude-348418772336147\/", ""]
+        }        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.779997,
+          15.583262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Dhairyansh Green",
+        "description": "Eco friendly sustainable products and lifestyle",
+        "categories": [
+          "",
+          ""
+        ],
+        "contact": {
+          "persons": ["Vaishali Chauhan"],
+          "emails": ["dhairyanshgreen@gmail.com"],
+          "phones": ["7020775089"],
+          "address": "",
+          "area": "",
+          "urls": ["https:\/\/www.facebook.com\/dhairyanshgreen\/", ""]
+        }        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.82785,
+          15.49093
+        ]
+      }
+    }
+  ]
+}

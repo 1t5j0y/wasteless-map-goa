@@ -1,7 +1,10 @@
 <template>
   <div>
     <div>
-      <h2>Search and add a pin</h2>
+      <button @click="searchMap">Search for sales</button>
+    </div>
+    <div>
+      <h2>Suggest an addition</h2>
       <label>
         <gmap-autocomplete
           @place_changed="setPlace"
@@ -26,7 +29,7 @@
       restriction: {latLngBounds: goaBounds, strictBounds: true}
       }"
       :center = "center"
-      style="width:500px;  height: 600px;"
+      style="width: 100%;  height: 600px;"
     >  
       <gmap-marker
         :key="index"
@@ -47,7 +50,7 @@
         </div>
       </gmap-info-window>      
     </gmap-map>
-  </div>
+    </div>
 </template>
 
 <script>
@@ -60,12 +63,15 @@ export default {
       places: [],
       currentPlace: null,
       infoBoxOpen: false,
-      goaBounds: {north: 15.9, south: 14.7, west: 73.2, east: 74.5}
+      goaBounds: {north: 15.9, south: 14.7, west: 73.2, east: 74.5},
+      mapData: null
     };
   },
 
   mounted() {
     this.geolocate();
+    this.mapData = require('../assets/data/Eco_Friendly_Product_Sellers.json');
+    this.populateMarkers();
   },
 
   methods: {
@@ -75,7 +81,6 @@ export default {
     },
     addMarker() {
       if (this.currentPlace) {
-        // console.log(this.currentPlace);
         const marker = {
           lat: this.currentPlace.geometry.location.lat(),
           lng: this.currentPlace.geometry.location.lng(),
@@ -96,13 +101,35 @@ export default {
       });
     },
     openInfoWindow(location) {
-      // console.log(location);
       this.currentPlace = location;
       this.infoBoxOpen = true;
     },
     closeInfoWindow() {
       this.infoBoxOpen = false;
-    }    
+    },
+    populateMarkers: function() {
+      this.mapData.features.forEach(feature => {
+        let marker = {
+          lng: feature.geometry.coordinates[0],
+          lat: feature.geometry.coordinates[1],
+          label: feature.properties.Name,
+          properties: feature.properties
+        }
+        this.markers.push({ position: marker });
+        marker = null;
+      });
+    },
+    searchMap: function(){
+      let featureList = new Array();
+      featureList = this.mapData.features;
+      let results = new Array();
+
+      featureList.forEach(element => {
+        if(element.properties.categories.includes('sales')) {
+          results.push(element);
+        }
+      });    
+    }
   }
 };
 </script>
