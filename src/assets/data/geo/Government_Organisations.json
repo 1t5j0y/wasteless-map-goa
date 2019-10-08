@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Government Organisations",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "GSPCB (Goa State Pollution Control Board)", "description": "Enforces rules, authorizes waste treatment facilities, accepts and acts on complaints made by citizens.                                 Email: swmcell.goa@gmail.com   I   Website: http:\/\/goaspcb.gov.in" }, "geometry": { "type": "Point", "coordinates": [ 73.8346629, 15.496099 ] } },
+{ "type": "Feature", "properties": { "Name": "GSUDA (Goa State Urban Development Agency)", "description": null }, "geometry": { "type": "Point", "coordinates": [ 73.8336206, 15.4971227 ] } },
+{ "type": "Feature", "properties": { "Name": "GWMC (Goa Waste Management Corporation)", "description": "Contact Person: Bento Thomas   I   Email: contact@zerowastegoa.com   I   Contact Number:         I   Facebook: https:\/\/www.facebook.com\/zerowastegoa\/" }, "geometry": { "type": "Point", "coordinates": [ 73.7813999, 15.5293485 ] } }
+]
+}

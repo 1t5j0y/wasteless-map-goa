@@ -1,19 +1,22 @@
 <template>
   <div id="app">
     <!-- <waste-map /> -->
-    <data-cleanup />
+    <point-list />
+    <separated-data />
   </div>
 </template>
 
 <script>
-import WasteMap from "./components/WasteMap";
-import DataCleanup from "./components/DataCleanup";
+// import WasteMap from "./components/WasteMap";
+import PointList from "./components/PointList";
+import SeparatedData from "./components/SeparatedData";
 
 export default {
   name: "App",
   components: {
     // WasteMap,
-    DataCleanup
+    PointList,
+    SeparatedData
   }
 };
 </script>

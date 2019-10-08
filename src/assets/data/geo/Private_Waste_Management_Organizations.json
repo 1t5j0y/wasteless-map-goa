@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Private Waste Management Organizations",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Hindustan Waste Treatment Pvt Ltd", "description": "Accepts waste from Govt. approved bulk generators in North Goa (Panchayats, NGOs, Municiplaities)                                                    Contact Person: Richard Dias (Manager) " }, "geometry": { "type": "Point", "coordinates": [ 73.7805155, 15.5287748 ] } },
+{ "type": "Feature", "properties": { "Name": "BAVISH", "description": "Accepts all dry waste and e-waste +919822486662<br>Contact Person: Baylon Gomes   I   Email: bavish2011@gmail.com   I   Facebook: https:\/\/www.facebook.com\/bavish.goa" }, "geometry": { "type": "Point", "coordinates": [ 73.817717, 15.398737 ] } },
+{ "type": "Feature", "properties": { "Name": "vRecycle Waste Management Services", "description": "Accepts all sorted\/unsorted recyclable waste including dry, e-waste, paper, plastic, metal glass & non recyclables +91 9890936828 www.vrecycle.in<br>Contact Person: Clinton Vaz   I   Email: klintvaz@gmail.com " }, "geometry": { "type": "Point", "coordinates": [ 74.015834999999896, 15.258437 ] } },
+{ "type": "Feature", "properties": { "Name": "Drishti Marine", "description": "Govt. Appointed Beach Cleaning Contractor Contact Person:   I   Email: info@drishtilifesavi ng.com   I   Website: http:\/\/www.drishtimarine.com\/   I   Contact Number: 1-800-833-1511   I   Facebook: https:\/\/www.facebook.com\/DrishtiMarine\/" }, "geometry": { "type": "Point", "coordinates": [ 73.803927, 15.459435 ] } },
+{ "type": "Feature", "properties": { "Name": "Fomento Green", "description": "Processes organic waste for Margao Municipal Council Only. Outside waste not accepted.             Contact Person:    I   Email: shridhar@fomento.com   I   Website: http:\/\/fomentogreen.blogspot.in\/" }, "geometry": { "type": "Point", "coordinates": [ 73.9903705, 15.2957968 ] } },
+{ "type": "Feature", "properties": { "Name": "Detritus Solutions", "description": "Consultancy & Turnkey Solutions for Waste Management                                                    Contact Person: Gaurav Pokle   I   Cellphone: 9371194600   I   Contact Number: (832) 3290383  I   Email: contact@detritussolutions.com   I   Website: www.detritussolutions.com   I    Address: Saldana Kieran Apartments, Altinho, Nr Union Restaurant, Mapusa, Goa - 403507" }, "geometry": { "type": "Point", "coordinates": [ 73.8138604, 15.5953326 ] } }
+]
+}

@@ -1,72 +1,107 @@
 <template>
   <div id="container">
-    <div>
-      <h2>{{name}}</h2>
-      <b-form-textarea plaintext id="textarea" v-model="legacyDescription" rows="3" max-rows="6"></b-form-textarea>
-      <hr />
-    </div>
+    <br />
+    <br />
     <div>
       <b-form @submit="onSubmit" @reset="onReset">
         <div>
-          <div>
-            <b-button
-              variant="outline-info"
-              v-on:click="addContactPerson"
-            >Add Contact Person #{{contactPersonIndex + 1}}</b-button>
-          </div>
-          <div class="row" v-for="person in contactPersons" :key="person.inputname">
+          <div v-for="person in contactPersons" :key="person.inputname">
             <b-form-input
               id="contactPersons"
               v-model="person.inputvalue"
               type="text"
               placeholder="Enter name"
+              size="sm"
             ></b-form-input>
+            <br />
+          </div>
+          <div>
+            <b-button
+              variant="outline-info"
+              v-on:click="addContactPerson"
+              size="sm"
+            >Add Contact Person #{{contactPersonIndex + 1}}</b-button>
           </div>
         </div>
+        <br />
         <div>
-          <div>
-            <b-button variant="outline-info" v-on:click="addPhone">Add Phone #{{phoneIndex + 1}}</b-button>
-          </div>
-          <div class="row" v-for="number in phones" :key="number.inputname">
+          <div v-for="number in phones" :key="number.inputname">
             <b-form-input
               id="phones"
               v-model="number.inputvalue"
               type="tel"
               placeholder="Enter phone number"
+              size="sm"
             ></b-form-input>
+            <br />
+          </div>
+          <div>
+            <b-button
+              variant="outline-info"
+              v-on:click="addPhone"
+              size="sm"
+            >Add Phone #{{phoneIndex + 1}}</b-button>
           </div>
         </div>
+        <br />
         <div>
-          <div>
-            <b-button variant="outline-info" v-on:click="addEmailRow">Add Email #{{emailIndex + 1}}</b-button>
-          </div>
-          <div class="row" v-for="email in emails" :key="email.inputname">
+          <div v-for="email in emails" :key="email.inputname">
             <b-form-input
               id="emails"
               v-model="email.inputvalue"
               type="email"
               placeholder="Enter email"
+              size="sm"
             ></b-form-input>
+            <br />
           </div>
-        </div>
-        <div>
           <div>
-            <b-button variant="outline-info" v-on:click="addURL">Add URL #{{urlIndex + 1}}</b-button>
-          </div>
-          <div class="row" v-for="url in urls" :key="url.inputname">
-            <b-form-input id="urls" v-model="url.inputvalue" type="url" placeholder="Enter URL"></b-form-input>
+            <b-button
+              variant="outline-info"
+              v-on:click="addEmailRow"
+              size="sm"
+            >Add Email #{{emailIndex + 1}}</b-button>
           </div>
         </div>
+        <br />
+        <div>
+          <div v-for="url in urls" :key="url.inputname">
+            <b-form-input
+              id="urls"
+              v-model="url.inputvalue"
+              type="url"
+              placeholder="Enter URL"
+              size="sm"
+            ></b-form-input>
+            <br />
+          </div>
+          <div>
+            <b-button variant="outline-info" v-on:click="addURL" size="sm">Add URL #{{urlIndex + 1}}</b-button>
+          </div>
+        </div>
+        <br />
         <div>
           <b-form-group id="contactAddress" label="Address:" label-for="contactAddress">
-            <b-form-input id="contactAddress" v-model="contactAddress" placeholder="Enter address"></b-form-input>
-          </b-form-group>
-        </div>        
-        <div>
-          <b-form-group id="description" label="Description:" label-for="description">
-            <b-form-input id="description" v-model="description" placeholder="Enter description"></b-form-input>
+            <b-form-input
+              id="contactAddress"
+              v-model="contactAddress"
+              placeholder="Enter address"
+              size="sm"
+            ></b-form-input>
           </b-form-group>
         </div>
+        <br />
+        <div>
+          <b-form-group id="description" label="Description:" label-for="description">
+            <b-form-input
+              id="description"
+              v-model="description"
+              placeholder="Enter description"
+              size="sm"
+            ></b-form-input>
+          </b-form-group>
+        </div>
+        <br />
         <div>
           <b-form-group label="Categories:">
             <b-form-checkbox-group
@@ -77,21 +112,7 @@
             ></b-form-checkbox-group>
           </b-form-group>
         </div>
-        <!--b-form-group id="input-group-3" label="Food:" label-for="input-3">
-        <b-form-select
-          id="input-3"
-          v-model="form.food"
-          :options="foods"
-          required
-        ></b-form-select>
-      </b-form-group>
 
-      <b-form-group id="input-group-4">
-        <b-form-checkbox-group v-model="form.checked" id="checkboxes-4">
-          <b-form-checkbox value="me">Check me out</b-form-checkbox>
-          <b-form-checkbox value="that">Check that out</b-form-checkbox>
-        </b-form-checkbox-group>
-        </b-form-group-->
         <br />
         <b-button type="submit" variant="primary">Submit</b-button>
         <b-button type="reset" variant="danger">Reset</b-button>
@@ -102,11 +123,10 @@
 
 <script>
 export default {
-  name: "DataCleanup",
+  name: "SeparatedData",
   data() {
     return {
       name: "",
-      legacyDescription: "",
       coordinates: [],
       contactPersons: [],
       contactPersonIndex: 0,
@@ -120,8 +140,8 @@ export default {
       categories: [],
       description: "",
       categoryOptions: [
-        {text: 'Paper', value: 'paper'},
-        {text: 'Plastic', value: 'plastic'}
+        { text: "Paper", value: "paper" },
+        { text: "Plastic", value: "plastic" }
       ]
     };
   },
@@ -166,19 +186,19 @@ export default {
       this.contactPersonIndex = 0;
       this.emails = [];
       this.emailIndex = 0;
-      this.phones= [];
-      this.phoneIndex= 0;
-      this.urls= [];
-      this.urlIndex= 0;
-      this.contactAddress= "";
-      this.categories= [];
-      this.description= "";
+      this.phones = [];
+      this.phoneIndex = 0;
+      this.urls = [];
+      this.urlIndex = 0;
+      this.contactAddress = "";
+      this.categories = [];
+      this.description = "";
 
       // Trick to reset/clear native browser form validation state
-      this.show = false
+      this.show = false;
       this.$nextTick(() => {
-        this.show = true
-      })
+        this.show = true;
+      });
     }
   }
 };
