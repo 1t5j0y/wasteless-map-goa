@@ -3,20 +3,20 @@
     size="xl"
     scrollable
     ref="modal"
-    title="Add Details"
+    :title="biz_name"
     :visible="visible"
     @hidden="resetModal"
   >
-    <div v-if="item">
-      <h4>{{item.properties.Name}}</h4>
-      <h5>{{item.properties.description}}</h5>
+    <div v-if="currentPoint">
+      <h6><span v-html="currentPoint.properties.description"></span></h6>
+      <!-- <h5>{{currentPoint.properties.description}}</h5> TODO use this-->
       <hr />
     </div>
     <div>
       <b-form @submit="handleSubmit">
         <div>
-          <b-form-group id="name" label="Name:" label-for="name">
-            <b-form-input id="name" v-model="name" placeholder="Enter name" size="sm"></b-form-input>
+          <b-form-group id="name" label="Name:" label-for="biz_name">
+            <b-form-input id="biz_name" v-model="biz_name" placeholder="Enter name" size="sm"></b-form-input>
           </b-form-group>
         </div>
         <div>
@@ -127,10 +127,6 @@
             ></b-form-checkbox-group>
           </b-form-group>
         </div>
-        <!-- 
-        <br />
-        <b-button type="submit" variant="primary">Submit</b-button>
-        <b-button type="reset" variant="danger">Reset</b-button>-->
       </b-form>
     </div>
     <template v-slot:modal-footer="{save, cancel}">
@@ -144,23 +140,28 @@
 export default {
   name: "PointDetails",
   model: {
-    prop: "item",
+    prop: "currentPoint",
     event: "input"
   },
   props: {
-    item: {
+    currentPoint: {
       default: null
     }
   },
   computed: {
     visible() {
-      // console.log('visible' + this.item !== null );
-      return this.item !== null;
+      return this.currentPoint !== null;
+    },
+  },
+  watch: {
+    currentPoint() {
+      this.biz_name = (this.currentPoint !== null ? this.currentPoint.properties.Name : '');
+      this.coordinates  = (this.currentPoint !== null ? this.currentPoint.geometry.coordinates : []);
     }
   },
   data() {
     return {
-      name: "",
+      biz_name: '',
       coordinates: [],
       contactPersons: [],
       contactPersonIndex: 0,
@@ -179,9 +180,6 @@ export default {
       ]
     };
   },
-  // mounted() {
-  //   this.name = this.item.properties.Name;
-  // },
   methods: {
     addEmailRow: function() {
       this.emails.push({
@@ -213,7 +211,6 @@ export default {
     },
     handleOk(evt) {
       evt.preventDefault();
-      // alert(JSON.stringify(this.emails));
       this.handleSubmit();
     },
     handleSubmit() {
@@ -224,11 +221,13 @@ export default {
     },
     pointDetails() {
       return (
-        this.name +
+        this.biz_name +
         "\n" +
         this.description +
         "\n" +
         this.contactAddress +
+        "\n" +
+        this.coordinates +
         "\n" +
         JSON.stringify(this.contactPersons) +
         "\n" +
@@ -242,6 +241,7 @@ export default {
       );
     },
     resetModal() {
+      this.biz_name = '';
       this.contactPersons = [];
       this.contactPersonIndex = 0;
       this.emails = [];
@@ -258,9 +258,6 @@ export default {
       });
       this.$emit("input", null);
     }
-    // reset(){
-    //   this.$emit('input', null);
-    // }
   }
 };
 </script>

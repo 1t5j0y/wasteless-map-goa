@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-    <b-table striped hover :items="points" :fields="fields" @row-clicked="showDetails"></b-table>
+    <b-table striped hover :items="points" :fields="fields" @row-clicked="showDetails">
+      <template v-slot:cell(index)="data">
+        {{ data.index + 1 }}
+      </template>      
+    </b-table>
     <point-details v-model="currentPoint" />
 
     <!-- <waste-map /> -->
@@ -9,20 +13,19 @@
 
 <script>
 // import WasteMap from "./components/WasteMap";
-// import PointList from "./components/PointList";
 import PointDetails from "./components/PointDetails";
 
 export default {
   name: "App",
   components: {
     // WasteMap,
-    // PointList,
     PointDetails
   },
   data() {
     return {
       points: [],
       fields: [
+        'index',
         { key: "properties.Name", label: "Name" },
         { key: "properties.description", label: "Description" }
       ],
@@ -56,10 +59,5 @@ export default {
       this.currentPoint = item;
     }
   }
-  // watch: {
-  //   currentPoint(value) {
-  //     console.log("current item is " + JSON.stringify(value));
-  //   }
-  // }
 };
 </script>
