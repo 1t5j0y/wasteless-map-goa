@@ -8,7 +8,9 @@
     @hidden="resetModal"
   >
     <div v-if="currentPoint">
-      <h6><span v-html="currentPoint.properties.description"></span></h6>
+      <h6>
+        <span v-html="currentPoint.properties.description"></span>
+      </h6>
       <!-- <h5>{{currentPoint.properties.description}}</h5> TODO use this-->
       <hr />
     </div>
@@ -16,7 +18,13 @@
       <b-form @submit="handleSubmit">
         <div>
           <b-form-group id="name" label="Name:" label-for="biz_name">
-            <b-form-input id="biz_name" v-model="biz_name" placeholder="Enter name" size="sm"></b-form-input>
+            <b-form-input
+              required
+              id="biz_name"
+              v-model="biz_name"
+              placeholder="Enter name"
+              size="sm"
+            ></b-form-input>
           </b-form-group>
         </div>
         <div>
@@ -137,6 +145,7 @@
 </template>
 
 <script>
+import MapPointsApi from '../services/api/MapPoints'
 export default {
   name: "PointDetails",
   model: {
@@ -151,17 +160,21 @@ export default {
   computed: {
     visible() {
       return this.currentPoint !== null;
-    },
+    }
   },
   watch: {
     currentPoint() {
-      this.biz_name = (this.currentPoint !== null ? this.currentPoint.properties.Name : '');
-      this.coordinates  = (this.currentPoint !== null ? this.currentPoint.geometry.coordinates : []);
+      this.biz_name =
+        this.currentPoint !== null ? this.currentPoint.properties.Name : "";
+      this.coordinates =
+        this.currentPoint !== null
+          ? this.currentPoint.geometry.coordinates
+          : [];
     }
   },
   data() {
     return {
-      biz_name: '',
+      biz_name: "",
       coordinates: [],
       contactPersons: [],
       contactPersonIndex: 0,
@@ -214,10 +227,52 @@ export default {
       this.handleSubmit();
     },
     handleSubmit() {
-      alert("submitting \n" + this.pointDetails());
-      this.$nextTick(() => {
-        this.$refs.modal.hide();
-      });
+      // alert("submitting \n" + this.pointDetails());
+      var request_object = {
+        name: "",
+        description: "",
+        categories: [],
+        coordinates: [],
+        contact: {
+          persons: [],
+          emails: [],
+          phones: [],
+          urls: [],
+          address: ""
+        }
+      };
+      request_object.name = this.biz_name;
+      request_object.description = this.description;
+      request_object.categories = this.categories;
+      request_object.coordinates = this.coordinates;
+      for (var person in this.contactPersons) {
+        request_object.contact.persons.push(
+          JSON.stringify(this.contactPersons[person].inputvalue)
+        );
+      }
+      for (var email in this.emails) {
+        request_object.contact.emails.push(
+          JSON.stringify(this.emails[email].inputvalue)
+        );
+      }
+      for (var number in this.phones) {
+        request_object.contact.phones.push(
+          JSON.stringify(this.phones[number].inputvalue)
+        );
+      }
+      for (var url in this.urls) {
+        request_object.contact.urls.push(
+          JSON.stringify(this.urls[url].inputvalue)
+        );
+      }
+      request_object.contact.address = this.contactAddress;
+
+      alert(JSON.stringify(request_object));
+      MapPointsApi.addPoints(request_object);
+
+      // this.$nextTick(() => {
+      //   this.$refs.modal.hide();
+      // });
     },
     pointDetails() {
       return (
@@ -241,7 +296,7 @@ export default {
       );
     },
     resetModal() {
-      this.biz_name = '';
+      this.biz_name = "";
       this.contactPersons = [];
       this.contactPersonIndex = 0;
       this.emails = [];
