@@ -16,6 +16,7 @@
     </div>
     <div>
       <b-form @submit="handleSubmit">
+        <!-- TODO Add form validations -->
         <div>
           <b-form-group id="name" label="Name:" label-for="biz_name">
             <b-form-input
@@ -267,9 +268,13 @@ export default {
       }
       request_object.contact.address = this.contactAddress;
 
-      alert(JSON.stringify(request_object));
+      var str_request_object = JSON.stringify(request_object);
+      // console.log(str_request_object);
+
+      alert(JSON.stringify(str_request_object));
       MapPointsApi.addPoints(request_object);
 
+      //TODO add loader
       // this.$nextTick(() => {
       //   this.$refs.modal.hide();
       // });
