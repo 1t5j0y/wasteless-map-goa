@@ -15,142 +15,154 @@
       <hr />
     </div>
     <div>
-      <b-form @submit.stop.prevent="handleSubmit">
-        <div style="color: var(--danger); font-size: small">{{server_errors}}</div>
-        <div>
-          <b-form-group id="name" label="Name:" label-for="biz_name">
-            <b-form-input
-              required
-              id="biz_name"
-              v-model="biz_name"
-              placeholder="Enter name"
-              size="sm"
-              :state="$v.biz_name.$dirty ? !$v.biz_name.$error : null"
-            ></b-form-input>
-          </b-form-group>
-          <div
-            style="color: var(--danger); font-size: small"
-            v-if="!$v.biz_name.required"
-          >Field is required</div>
-          <div
-            style="color: var(--danger); font-size: small"
-            v-if="!$v.biz_name.minLength"
-          >Name must have at least {{$v.biz_name.$params.minLength.min}} letters.</div>
-        </div>
-        <div>
-          <b-form-group id="contactAddress" label="Address:" label-for="contactAddress">
-            <b-form-input
-              id="contactAddress"
-              v-model="contactAddress"
-              placeholder="Enter address"
-              size="sm"
-            ></b-form-input>
-          </b-form-group>
-        </div>
-        <div>
-          <b-form-group id="description" label="Description:" label-for="description">
-            <b-form-input
-              id="description"
-              v-model="description"
-              placeholder="Enter description"
-              size="sm"
-            ></b-form-input>
-          </b-form-group>
-        </div>
-        <br />
-        <div>
-          <div v-for="person in contactPersons" :key="person.inputname">
-            <b-form-input
-              id="contactPersons"
-              v-model="person.inputvalue"
-              type="text"
-              placeholder="Enter contact person name"
-              size="sm"
-            ></b-form-input>
-            <br />
-          </div>
-          <div>
-            <b-button
-              variant="outline-info"
-              v-on:click="addContactPerson"
-              size="sm"
-            >Add Contact Person #{{contactPersonIndex + 1}}</b-button>
-          </div>
-        </div>
-        <br />
-        <div>
-          <div v-for="number in phones" :key="number.inputname">
-            <b-form-input
-              id="phones"
-              v-model="number.inputvalue"
-              type="tel"
-              placeholder="Enter phone number"
-              size="sm"
-            ></b-form-input>
-            <br />
-          </div>
-          <div>
-            <b-button
-              variant="outline-info"
-              v-on:click="addPhone"
-              size="sm"
-            >Add Phone #{{phoneIndex + 1}}</b-button>
-          </div>
-        </div>
-        <br />
-        <div>
-          <div v-for="email in emails" :key="email.inputname">
-            <b-form-input
-              id="emails"
-              v-model="email.inputvalue"
-              type="email"
-              placeholder="Enter email"
-              size="sm"
-            ></b-form-input>
-            <br />
-          </div>
-          <div>
-            <b-button
-              variant="outline-info"
-              v-on:click="addEmailRow"
-              size="sm"
-            >Add Email #{{emailIndex + 1}}</b-button>
-          </div>
-        </div>
-        <br />
-        <div>
-          <div v-for="url in urls" :key="url.inputname">
-            <b-form-input
-              id="urls"
-              v-model="url.inputvalue"
-              type="url"
-              placeholder="Enter URL"
-              size="sm"
-            ></b-form-input>
-            <br />
-          </div>
-          <div>
-            <b-button variant="outline-info" v-on:click="addURL" size="sm">Add URL #{{urlIndex + 1}}</b-button>
-          </div>
-        </div>
-        <br />
-
-        <div>
-          <b-form-group label="Categories:">
-            <b-form-checkbox-group
-              id="categories"
-              v-model="categories"
-              :options="categoryOptions"
-              :state="$v.categories.$dirty ? !$v.categories.$error : null"
-              name="categories"
-            ></b-form-checkbox-group>
-          </b-form-group>
-        </div>
-        <div
-          style="color: var(--danger); font-size: small"
-          v-if="!$v.categories.required"
-        >At least one category should be selected.</div>
-      </b-form>
+      <b-container>
+        <b-form @submit.stop.prevent="handleSubmit">
+          <div style="color: var(--danger); font-size: small">{{server_errors}}</div>
+          <b-row>
+            <b-col>
+              <div>
+                <b-form-group id="name" label="Name:" label-for="biz_name">
+                  <b-form-input
+                    required
+                    id="biz_name"
+                    v-model="biz_name"
+                    placeholder="Enter name"
+                    size="sm"
+                    :state="$v.biz_name.$dirty ? !$v.biz_name.$error : null"
+                  ></b-form-input>
+                </b-form-group>
+                <div
+                  style="color: var(--danger); font-size: small"
+                  v-if="!$v.biz_name.required"
+                >Field is required</div>
+                <div
+                  style="color: var(--danger); font-size: small"
+                  v-if="!$v.biz_name.minLength"
+                >Name must have at least {{$v.biz_name.$params.minLength.min}} letters.</div>
+              </div>
+              <div>
+                <b-form-group id="contactAddress" label="Address:" label-for="contactAddress">
+                  <b-form-input
+                    id="contactAddress"
+                    v-model="contactAddress"
+                    placeholder="Enter address"
+                    size="sm"
+                  ></b-form-input>
+                </b-form-group>
+              </div>
+              <br />
+              <div>
+                <div v-for="number in phones" :key="number.inputname">
+                  <b-form-input
+                    id="phones"
+                    v-model="number.inputvalue"
+                    type="tel"
+                    placeholder="Enter phone number"
+                    size="sm"
+                  ></b-form-input>
+                  <br />
+                </div>
+                <div>
+                  <b-button
+                    variant="outline-info"
+                    v-on:click="addPhone"
+                    size="sm"
+                  >Add Phone #{{phoneIndex + 1}}</b-button>
+                </div>
+              </div>
+              <br />
+              <div>
+                <div v-for="email in emails" :key="email.inputname">
+                  <b-form-input
+                    id="emails"
+                    v-model="email.inputvalue"
+                    type="email"
+                    placeholder="Enter email"
+                    size="sm"
+                  ></b-form-input>
+                  <br />
+                </div>
+                <div>
+                  <b-button
+                    variant="outline-info"
+                    v-on:click="addEmailRow"
+                    size="sm"
+                  >Add Email #{{emailIndex + 1}}</b-button>
+                </div>
+              </div>
+              <br />
+              <div>
+                <div v-for="url in urls" :key="url.inputname">
+                  <b-form-input
+                    id="urls"
+                    v-model="url.inputvalue"
+                    type="url"
+                    placeholder="Enter URL"
+                    size="sm"
+                  ></b-form-input>
+                  <br />
+                </div>
+                <div>
+                  <b-button
+                    variant="outline-info"
+                    v-on:click="addURL"
+                    size="sm"
+                  >Add URL #{{urlIndex + 1}}</b-button>
+                </div>
+              </div>
+            </b-col>
+            <b-col>
+              <div>
+                <b-form-group id="description" label="Description:" label-for="description">
+                  <b-form-input
+                    id="description"
+                    v-model="description"
+                    placeholder="Enter description"
+                    size="sm"
+                  ></b-form-input>
+                </b-form-group>
+              </div>
+              <br />
+              <div>
+                <div v-for="person in contactPersons" :key="person.inputname">
+                  <b-form-input
+                    id="contactPersons"
+                    v-model="person.inputvalue"
+                    type="text"
+                    placeholder="Enter contact person name"
+                    size="sm"
+                  ></b-form-input>
+                  <br />
+                </div>
+                <div>
+                  <b-button
+                    variant="outline-info"
+                    v-on:click="addContactPerson"
+                    size="sm"
+                  >Add Contact Person #{{contactPersonIndex + 1}}</b-button>
+                </div>
+              </div>
+              <br />
+              <div>
+                <b-form-group label="Categories:">
+                  <b-form-checkbox-group
+                    id="categories"
+                    v-model="categories"
+                    :options="categoryOptions"
+                    :state="$v.categories.$dirty ? !$v.categories.$error : null"
+                    name="categories"
+                    stacked
+                  ></b-form-checkbox-group>
+                </b-form-group>
+              </div>
+              <div
+                style="color: var(--danger); font-size: small"
+                v-if="!$v.categories.required"
+              >At least one category should be selected.</div>
+            </b-col>
+          </b-row>
+        </b-form>
+      </b-container>
     </div>
     <template v-slot:modal-footer="{save, cancel}">
       <b-button size="sm" type="submit" variant="primary" @click="handleOk">Save</b-button>
@@ -215,8 +227,19 @@ export default {
       categories: [],
       description: "",
       categoryOptions: [
+        { text: "Food Bank", value: "food_bank" },
+        { text: "Wet Waste", value: "wet_waste" },
+        { text: "Sanitary Waste", value: "sanitary_waste" },
+        { text: "Medical Waste", value: "medical_waste" },
+        { text: "E Waste", value: "e_waste" },
         { text: "Paper", value: "paper" },
-        { text: "Plastic", value: "plastic" }
+        { text: "Plastic", value: "plastic" },
+        { text: "Glass", value: "glass" },
+        { text: "Metal", value: "metal" },
+        { text: "Used Items", value: "donate_used_items" },
+        { text: "Eco Store", value: "eco_store" },
+        { text: "Pre-loved Items Store", value: "pre_loved_store" },
+        { text: "Expert", value: "expert" }
       ],
       server_errors: ""
     };
