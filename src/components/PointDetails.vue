@@ -11,12 +11,12 @@
       <h6>
         <span v-html="currentPoint.properties.description"></span>
       </h6>
-      <!-- <h5>{{currentPoint.properties.description}}</h5> TODO use this-->
+      <!-- <h6>{{currentPoint.properties.description}}</h6> TODO use this once data is cleaned up.-->
       <hr />
     </div>
     <div>
-      <b-form @submit="handleSubmit">
-        <!-- TODO Add form validations -->
+      <b-form @submit.stop.prevent="handleSubmit">
+        <div style="color: var(--danger); font-size: small">{{server_errors}}</div>
         <div>
           <b-form-group id="name" label="Name:" label-for="biz_name">
             <b-form-input
@@ -25,8 +25,17 @@
               v-model="biz_name"
               placeholder="Enter name"
               size="sm"
+              :state="$v.biz_name.$dirty ? !$v.biz_name.$error : null"
             ></b-form-input>
           </b-form-group>
+          <div
+            style="color: var(--danger); font-size: small"
+            v-if="!$v.biz_name.required"
+          >Field is required</div>
+          <div
+            style="color: var(--danger); font-size: small"
+            v-if="!$v.biz_name.minLength"
+          >Name must have at least {{$v.biz_name.$params.minLength.min}} letters.</div>
         </div>
         <div>
           <b-form-group id="contactAddress" label="Address:" label-for="contactAddress">
@@ -132,10 +141,15 @@
               id="categories"
               v-model="categories"
               :options="categoryOptions"
-              name="flavour-1"
+              :state="$v.categories.$dirty ? !$v.categories.$error : null"
+              name="categories"
             ></b-form-checkbox-group>
           </b-form-group>
         </div>
+        <div
+          style="color: var(--danger); font-size: small"
+          v-if="!$v.categories.required"
+        >At least one category should be selected.</div>
       </b-form>
     </div>
     <template v-slot:modal-footer="{save, cancel}">
@@ -146,7 +160,9 @@
 </template>
 
 <script>
-import MapPointsApi from '../services/api/MapPoints'
+import { validationMixin } from "vuelidate";
+import { required, minLength } from "vuelidate/lib/validators";
+import MapPointsApi from "../services/api/MapPoints";
 export default {
   name: "PointDetails",
   model: {
@@ -156,6 +172,16 @@ export default {
   props: {
     currentPoint: {
       default: null
+    }
+  },
+  mixins: [validationMixin],
+  validations: {
+    biz_name: {
+      required,
+      minLength: minLength(3)
+    },
+    categories: {
+      required
     }
   },
   computed: {
@@ -191,7 +217,8 @@ export default {
       categoryOptions: [
         { text: "Paper", value: "paper" },
         { text: "Plastic", value: "plastic" }
-      ]
+      ],
+      server_errors: ""
     };
   },
   methods: {
@@ -228,7 +255,12 @@ export default {
       this.handleSubmit();
     },
     handleSubmit() {
+      this.$v.$touch();
+      if (this.$v.$anyError) {
+        return;
+      }
       // alert("submitting \n" + this.pointDetails());
+      this.server_errors = "";
       var request_object = {
         name: "",
         description: "",
@@ -268,16 +300,32 @@ export default {
       }
       request_object.contact.address = this.contactAddress;
 
-      var str_request_object = JSON.stringify(request_object);
+      // var str_request_object = JSON.stringify(request_object);
       // console.log(str_request_object);
 
-      alert(JSON.stringify(str_request_object));
-      MapPointsApi.addPoints(request_object);
-
+      // alert(JSON.stringify(str_request_object));
       //TODO add loader
-      // this.$nextTick(() => {
-      //   this.$refs.modal.hide();
-      // });
+      MapPointsApi.addPoints(request_object)
+        .then(response => {
+          alert(response.data.message);
+          this.$nextTick(() => {
+            this.$refs.modal.hide();
+          });
+        })
+        .catch(error => {
+          if (error.response && error.response.data) {
+            if (error.response.data.errors) {
+              for (var e in error.response.data.errors) {
+                this.server_errors =
+                  this.server_errors + error.response.data.errors[e] + "\n";
+              }
+            } else if (error.response.data.message) {
+              this.server_errors = error.response.data.message;
+            }
+          } else {
+            this.server_errors = "Error while storing point.";
+          }
+        });
     },
     pointDetails() {
       return (
