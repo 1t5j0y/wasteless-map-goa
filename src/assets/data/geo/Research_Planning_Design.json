@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "Research, Planning & Design",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "Name": "The Energy & Resources Institute (TERI)", "description": "Contact Person: Ashwini Pai   I   Email: teriwrc@teri.res.in   " }, "geometry": { "type": "Point", "coordinates": [ 73.8466929, 15.4645082 ] } },
-{ "type": "Feature", "properties": { "Name": "Waste Less Collective", "description": "Contact Person: Saritha Sudhakaran   I   Email: wastelesscollective@gmail.com   I   Cellphone: 8879990919   I   Facebook: https:\/\/www.facebook.com\/wastelesscollective\/" }, "geometry": { "type": "Point", "coordinates": [ 73.9694399, 15.2966712 ] } }
-]
-}

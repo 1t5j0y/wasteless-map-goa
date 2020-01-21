@@ -1,0 +1,2576 @@
+{
+  "type": "FeatureCollection",
+  "name": "Goa Waste and Eco Map Data Points",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "name": "Carry Your Bottle",
+      "description": "Carry Your Bottle is a project aimed at making people aware about the need to carry their own water bottles, instead of buying bottled water.",
+      "categories": [
+        "eco_store"
+      ],
+      "coordinates": [
+        73.7745559,
+        15.6006348
+      ],
+      "contact": {
+        "persons": [
+          "\"Shanto R. Doultani\""
+        ],
+        "emails": [
+          "\"info@carryyourbottle.com\""
+        ],
+        "phones": [
+          "\"+919763730029\""
+        ],
+        "urls": [
+          "\"www.carryyourbottle.com\"",
+          "\"www.instagram.com/carryyourbottle/\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Ecoposro ",
+      "description": "Goa's first zero waste store",
+      "categories": [
+        "eco_store"
+      ],
+      "coordinates": [
+        73.793741,
+        15.581484
+      ],
+      "contact": {
+        "persons": [
+          "\"Eldridge Lobo\"",
+          "\"Jonah Fernandes\""
+        ],
+        "emails": [],
+        "phones": [
+          "\"+919623636398\""
+        ],
+        "urls": [
+          "\"www.instagram.com/ecoposro/\"",
+          "\"\""
+        ],
+        "address": "House no. 220 B, Auchit Vaddo Verla Parra Parra, Goa 403510"
+      }
+    },
+    {
+      "name": "Sustainable Brandz",
+      "description": "Provision of plastic free restaurant supplies and alternatives",
+      "categories": [
+        "eco_store"
+      ],
+      "coordinates": [
+        73.9171253,
+        15.2762175
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [
+          "\"ask@Sustainablebrandz.com\""
+        ],
+        "phones": [
+          "\"+917741064422\""
+        ],
+        "urls": [
+          "\"www.instagram.com/sustainablebrandz\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Naree Artisans Movement",
+      "description": "",
+      "categories": [
+        "donate_used_items",
+        "pre_loved_store"
+      ],
+      "coordinates": [
+        73.818359,
+        15.488021
+      ],
+      "contact": {
+        "persons": [
+          "\" Aira Mirchandani \""
+        ],
+        "emails": [
+          "\"nareeartisansmovement@gmail.com\"",
+          "\"\""
+        ],
+        "phones": [],
+        "urls": [
+          "\"www.facebook.com/NAM-Naree-Artisans-Movement-174749289343655/\""
+        ],
+        "address": "Beta Building, Firt floor. Opp. Shenaz Super Market, St. Inez Panaji 403001"
+      }
+    },
+    {
+      "name": "Dabolim Mahila Paper Bag Masters",
+      "description": "",
+      "categories": [
+        "donate_used_items"
+      ],
+      "coordinates": [
+        73.8252,
+        15.396861
+      ],
+      "contact": {
+        "persons": [
+          "\"Ethel Nunes\""
+        ],
+        "emails": [],
+        "phones": [],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Dabolim Mahila Paper Bag Masters",
+      "description": "",
+      "categories": [
+        "donate_used_items"
+      ],
+      "coordinates": [
+        73.8252,
+        15.396861
+      ],
+      "contact": {
+        "persons": [
+          "\"Ethel Nunes\""
+        ],
+        "emails": [],
+        "phones": [],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Earthytude ",
+      "description": "Biodegradable carry bags, garbage bags made from sugarcane bagasse, paper straws, recycled newspaper pencils, jute grow bags for plants, waste wood toothbrushes with cornstarch bristles, disposable food containers",
+      "categories": [
+        "eco_store"
+      ],
+      "coordinates": [
+        73.779997,
+        15.583262
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [
+          "\"earthytude@gmail.com\"",
+          "\"infor@earthytude.com\""
+        ],
+        "phones": [],
+        "urls": [
+          "\"https://www.facebook.com/Earthytude-348418772336147/ \""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Dhairyansh Green",
+      "description": "Eco friendly sustainable products and lifestyle",
+      "categories": [
+        "eco_store"
+      ],
+      "coordinates": [
+        73.82785,
+        15.49093
+      ],
+      "contact": {
+        "persons": [
+          "\"Vaishali Chauhan\""
+        ],
+        "emails": [
+          "\"dhairyanshgreen@gmail.com\""
+        ],
+        "phones": [
+          "\"+917020775089\""
+        ],
+        "urls": [
+          "\"https://www.facebook.com/dhairyanshgreen/\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Communicare Trust",
+      "description": "",
+      "categories": [
+        "e_waste"
+      ],
+      "coordinates": [
+        73.8107142,
+        15.4612456
+      ],
+      "contact": {
+        "persons": [
+          "\"Nalini Elvino de Sousa\""
+        ],
+        "emails": [
+          "\"manager@comtrust.org\""
+        ],
+        "phones": [],
+        "urls": [
+          "\"https://www.facebook.com/comtrustgoa\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Group Tenplus",
+      "description": "",
+      "categories": [
+        "e_waste"
+      ],
+      "coordinates": [
+        73.784501,
+        15.53973
+      ],
+      "contact": {
+        "persons": [
+          "\"Ashley Delaney\""
+        ],
+        "emails": [
+          "\"info@grouptenplus.com\""
+        ],
+        "phones": [],
+        "urls": [
+          "\"https://www.facebook.com/groups/234584509979708/about/\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "vRecycle Waste Management Services\n",
+      "description": "A small waste management firm based out of South Goa, India that helps people manage their own waste. ",
+      "categories": [
+        "wet_waste",
+        "sanitary_waste",
+        "e_waste",
+        "paper",
+        "plastic",
+        "glass",
+        "metal",
+        "expert"
+      ],
+      "coordinates": [
+        73.9524200000001,
+        15.26837
+      ],
+      "contact": {
+        "persons": [
+          "\"Clinton Vaz\""
+        ],
+        "emails": [],
+        "phones": [
+          "\"+919890936828\"",
+          "\"+919552571981\""
+        ],
+        "urls": [
+          "\"https://vrecycle.in/\""
+        ],
+        "address": "P-35, Margao Industrial Estate, San Jose de Areal, Goa"
+      }
+    },
+    {
+      "name": "Goa Outreach",
+      "description": "",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.8301552,
+        15.6052682
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Coastal Impact India",
+      "description": "Organises undersea and Island Cleanups",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.856721,
+        15.56718
+      ],
+      "contact": {
+        "persons": [
+          "\"Venkatesh Charloo\""
+        ],
+        "emails": [
+          "\"coastalimpactindia@gmail.com\""
+        ],
+        "phones": [],
+        "urls": [
+          "\"https://www.facebook.com/CoastalImpact/\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Team Up to Clean up Goa ",
+      "description": "",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.762495,
+        15.5311237
+      ],
+      "contact": {
+        "persons": [
+          "\"Clinton Fernandes \""
+        ],
+        "emails": [
+          "\"clintonfernandes23@gmail.com\""
+        ],
+        "phones": [
+          "\"+919923610393\""
+        ],
+        "urls": [
+          "\"https://www.facebook.com/teamuptocleanupgoa/\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Goa Foundation",
+      "description": "",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.8124984,
+        15.6002273
+      ],
+      "contact": {
+        "persons": [
+          "\"Dr. Claude Alvares\""
+        ],
+        "emails": [
+          "\"goafoundation@gmail.com\""
+        ],
+        "phones": [],
+        "urls": [
+          "\"https://www.facebook.com/GoaFoundation\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Green Goa Foundation",
+      "description": "",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.9706093,
+        15.2834994
+      ],
+      "contact": {
+        "persons": [
+          "\"Raison Almeida\""
+        ],
+        "emails": [
+          "\"greengoafoundationorg@gmail.com\""
+        ],
+        "phones": [],
+        "urls": [
+          "\"https://www.facebook.com/Green-Goa-Foundation-188331430628/\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "People’s Movement for Civic Action",
+      "description": "",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.8271219,
+        15.4981079
+      ],
+      "contact": {
+        "persons": [
+          "\"Patricia Pinto\""
+        ],
+        "emails": [],
+        "phones": [
+          "\"+919822802629\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "GOACAN",
+      "description": "",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.8130808,
+        15.592614
+      ],
+      "contact": {
+        "persons": [
+          "\"Roland Martins\""
+        ],
+        "emails": [
+          "\"goacan@gmail.com\""
+        ],
+        "phones": [],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Mission Green Goa",
+      "description": "",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.8202893,
+        15.467872
+      ],
+      "contact": {
+        "persons": [
+          "\"Tallulah D'Silva\""
+        ],
+        "emails": [
+          "\"tallulahdsilva@gmail.com\""
+        ],
+        "phones": [],
+        "urls": [
+          "\"www.missiongreengoa.blogspot.com\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Jagrut Nagrik Manch",
+      "description": "",
+      "categories": [
+        "donate_used_items",
+        "expert"
+      ],
+      "coordinates": [
+        73.8440398,
+        15.3860329
+      ],
+      "contact": {
+        "persons": [
+          "\"Alka Damle\""
+        ],
+        "emails": [],
+        "phones": [],
+        "urls": [
+          "\"https://www.facebook.com/groups/vascoawarecitizens/\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "VEAB (Vivekanand Environment Awareness Brigade)\n",
+      "description": "",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        74.1236347,
+        15.2995446
+      ],
+      "contact": {
+        "persons": [
+          "\"Rajendra & Pournima Kerkar\""
+        ],
+        "emails": [
+          "\"rpkerkar@yahoo.com\""
+        ],
+        "phones": [],
+        "urls": [
+          "\"https://www.facebook.com/veabgoa.keri\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Khushi Parisara",
+      "description": "",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        74.0476378,
+        14.9931145
+      ],
+      "contact": {
+        "persons": [
+          "\"Ana S.\""
+        ],
+        "emails": [
+          "\"khushiparisara@gmail.com\""
+        ],
+        "phones": [
+          "\"+917829313903\""
+        ],
+        "urls": [
+          "\"http://www.khushiparisara.in\"",
+          "\"https://www.facebook.com/profile.php?id=100014735797562\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Video Volunteers",
+      "description": "",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.7579068,
+        15.5811978
+      ],
+      "contact": {
+        "persons": [
+          "\"Jessica Mayberry\""
+        ],
+        "emails": [
+          "\"info@videovolunteers.org\""
+        ],
+        "phones": [],
+        "urls": [
+          "\"https://www.facebook.com/VideoVolunteers/\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Mineral Foundation of Goa",
+      "description": "",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.828995,
+        15.5002012
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [
+          "\"mfgoa2000@gmail.com\""
+        ],
+        "phones": [
+          "\"+918322232414\""
+        ],
+        "urls": [
+          "\"www.mfgoa.com\"",
+          "\"https://www.facebook.com/Mineral-Foundation-of-Goa-168206969887851/\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Rise Nation Army",
+      "description": "",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.9536163,
+        15.1791179
+      ],
+      "contact": {
+        "persons": [
+          "\"Varun Carvalho\""
+        ],
+        "emails": [
+          "\"varuncarvalho@yahoo.com\""
+        ],
+        "phones": [
+          "\"+919823129916\""
+        ],
+        "urls": [
+          "\"https://www.facebook.com/Rise-Nation-Army-116612129037650/?ref=page_internal\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Forca Goa Foundation",
+      "description": "",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.9565551000001,
+        15.2616025
+      ],
+      "contact": {
+        "persons": [
+          "\"Nathaniel Da Costa\""
+        ],
+        "emails": [
+          "\"nathaniel.dcosta@forcagoa.org\""
+        ],
+        "phones": [
+          "\"+918605541351\""
+        ],
+        "urls": [
+          "\"http://forcagoa.org/\"",
+          "\"https://www.facebook.com/forcagoafoundation/\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Live Happy",
+      "description": "",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.7853035,
+        15.6011541
+      ],
+      "contact": {
+        "persons": [
+          "\"Felly Gomes\""
+        ],
+        "emails": [
+          "\"livehappyngo@gmail.com\""
+        ],
+        "phones": [
+          "\"+919960188801\""
+        ],
+        "urls": [
+          "\"http://www.livehappygoa.com/\"",
+          "\"https://www.facebook.com/livehappygoa/\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "khoj-aao! Adventures",
+      "description": "",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.7860276,
+        15.5897107
+      ],
+      "contact": {
+        "persons": [
+          "\"Pooja Rani Bhatia\""
+        ],
+        "emails": [
+          "\"pooja@khojaao.com\""
+        ],
+        "phones": [
+          "\"8527937919\""
+        ],
+        "urls": [
+          "\"http://khojaao.com/\"",
+          "\"https://www.facebook.com/khojaaoAdventures/\""
+        ],
+        "address": "H. No. 93/A Verla Canca Bardez, Goa 403510"
+      }
+    },
+    {
+      "name": "Margao Food Bank at Lar De Santa Terezinha, next to Mario Miranda's gallery, Pajifond, Margao",
+      "description": "One of 12 food banks started by Street Providence. We accept food for the poor and the needy from hotels, restaurants, weddings, bakery, etc. You may deposit the food (in good condition) at our centre which is quipped with freezer. ",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.9626217,
+        15.2762781
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [],
+        "urls": [],
+        "address": "Lar De Santa Terezinha, next to Mario Miranda's gallery, Pajifond, Margao"
+      }
+    },
+    {
+      "name": "Peace Haven Food Bank",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.808303,
+        15.470038
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"9049018429\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "St. Joseph's Church Food Bank",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.797012,
+        15.716815
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"9820614033\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Cafe Don Pedro Food Bank",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.824262,
+        15.396606
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"9890191147\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Church of St Francis of Assisi Food Bank",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.830773,
+        15.648652
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"9850185085\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Immaculate Conception Church Food Bank",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.829618,
+        15.498598
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"9822686287\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Institute Piedade Food Bank",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.825158,
+        15.495588
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"9423888255\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Archbishop's Palace Food Bank",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.826184,
+        15.491911
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"9822103474\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "our lady of grace church Food Bank",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.947553,
+        15.5893
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"7083039949\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Holy Cross Shrine Bambolim",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.864281,
+        15.452149
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"9822418870\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "St Clara's Church",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.894549,
+        15.618564
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"9822137027\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "St.Mary’s  Convent",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        74.013747,
+        15.402305
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"8459995729\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Mãe de Deus Chapel",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.785752,
+        15.621926
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"8805043638\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Fr. Agnel College Food Bank",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.893715,
+        15.439251
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"9822177441\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Lar de Sant. Terezinha",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.963282,
+        15.276226
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"9850152860\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Lar Da Santa Clara FHIC",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.956896,
+        15.279211
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"8606310169\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "St. Matthews Church Food Bank",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.920921,
+        15.464846
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"9158440364\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Convent of our Lady Angels Food Bank",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.909597,
+        15.499524
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"9767237266\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Gauri Car Center Petrol Pump Food Bank",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.829136,
+        15.519256
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"9921939797\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "HP PETROL PUMP - FUEL POINT, FOOD  BANK",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.818664,
+        15.399001
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"9822127899\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Cravings Cakes, FOOD BANK",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.780855,
+        15.561076
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"8805309016\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Our Lady of Mount Carmel, Food Bank",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.715778,
+        15.696895
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"9822581460\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Succor Home, Food Bank",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.773434,
+        15.624016
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"8805602898\"",
+          "\"9226444249\""
+        ],
+        "urls": [],
+        "address": "Food Bank 20 Meters away from BLUE LAGOON APARTMENTS"
+      }
+    },
+    {
+      "name": "House of Mercy, Mapusa FOOD BANK",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.812985,
+        15.589006
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"8286512145\""
+        ],
+        "urls": [],
+        "address": "Next to Mosque, Near Old Aldona Bus stand"
+      }
+    },
+    {
+      "name": "St. Agnes Church, St. Inez, FOOD BANK",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.820528,
+        15.494008
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"9822489189\""
+        ],
+        "urls": [],
+        "address": "Few Meters away from Viventa Taj"
+      }
+    },
+    {
+      "name": "Divine Providence Convent",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.933863,
+        15.27339
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"9890917570\""
+        ],
+        "urls": [],
+        "address": "Benaulim "
+      }
+    },
+    {
+      "name": "Velim FOOD BANK",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.974081,
+        15.165727
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"7350537035\""
+        ],
+        "urls": [],
+        "address": "Near St. Francis Xavier Church, Velim"
+      }
+    },
+    {
+      "name": "Sangolda Food Bank",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.812027,
+        15.543235
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"8380097564\""
+        ],
+        "urls": [],
+        "address": "20 meters away from Muktar Automobiles"
+      }
+    },
+    {
+      "name": "Our Lady of Martyrs Church, Assolna Food Bank",
+      "description": "",
+      "categories": [
+        "food_bank"
+      ],
+      "coordinates": [
+        73.970173,
+        15.183211
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"7507390034\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "GSPCB (Goa State Pollution Control Board)",
+      "description": "Enforces rules, authorizes waste treatment facilities, accepts and acts on complaints made by citizens.",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.8346629,
+        15.496099
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [
+          "\"swmcell.goa@gmail.com\""
+        ],
+        "phones": [],
+        "urls": [
+          "\"http://goaspcb.gov.in\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "GSUDA (Goa State Urban Development Agency)",
+      "description": "",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.8336206,
+        15.4971227
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "GWMC (Goa Waste Management Corporation)",
+      "description": "",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.7813999,
+        15.5293485
+      ],
+      "contact": {
+        "persons": [
+          "\"Bento Thomas\""
+        ],
+        "emails": [
+          "\"contact@zerowastegoa.com\""
+        ],
+        "phones": [],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Naim Khan Computer Scrap",
+      "description": "",
+      "categories": [
+        "e_waste"
+      ],
+      "coordinates": [
+        73.959494,
+        15.268364
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+919152955909\""
+        ],
+        "urls": [],
+        "address": "House No 29 E, Margao Colva Road, Margao, Goa - 403601"
+      }
+    },
+    {
+      "name": "S. A. KHAN  Traders",
+      "description": "",
+      "categories": [
+        "e_waste"
+      ],
+      "coordinates": [
+        73.959783,
+        15.483703
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+919152468179\""
+        ],
+        "urls": [],
+        "address": "KGN, Muslimwada Bhoma Adclona, Kundaim, Goa - 403115"
+      }
+    },
+    {
+      "name": "Dry Waste Sorting Centre of Ram Kumar",
+      "description": "Carry segregated waste and get some money back as per prevailing rate if quantity is good. Unsegregated but clean and dry waste accepted (not tetra pack, thermacol or hazardous waste) with NO payment",
+      "categories": [
+        "paper",
+        "plastic",
+        "glass",
+        "metal"
+      ],
+      "coordinates": [
+        73.958158,
+        15.28462
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Shakti Sales Corporation",
+      "description": "",
+      "categories": [
+        "paper"
+      ],
+      "coordinates": [
+        74.013625,
+        15.384822
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+919152588039\""
+        ],
+        "urls": [],
+        "address": "H Number 83, Bondbag Betora, ponda, Betora Bypass Road, Ponda, Goa - 403401"
+      }
+    },
+    {
+      "name": "Sakshi Scrap Dealers",
+      "description": "",
+      "categories": [
+        "e_waste"
+      ],
+      "coordinates": [
+        73.827727,
+        15.624694
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+919152525662\""
+        ],
+        "urls": [],
+        "address": "Musir Wada, Colvale, Goa - 403513"
+      }
+    },
+    {
+      "name": "Kirti Enterprises",
+      "description": "",
+      "categories": [
+        "metal"
+      ],
+      "coordinates": [
+        73.831295,
+        15.517511
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+919152949391\""
+        ],
+        "urls": [],
+        "address": "Zilcho,Patho,Sr No-59 Sub Division -2, National Highway No 17, Alto Porvorim, Goa - 403521"
+      }
+    },
+    {
+      "name": "Rama Traders",
+      "description": "",
+      "categories": [
+        "paper"
+      ],
+      "coordinates": [
+        73.9523837,
+        15.4224676
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "S A KHAN Traders",
+      "description": "",
+      "categories": [
+        "paper"
+      ],
+      "coordinates": [
+        73.971441,
+        15.469603
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+919158786376\"",
+          "\"+917083711976\""
+        ],
+        "urls": [],
+        "address": "KGN, Muslimwada bhoma marcel goa, Kundaim, Goa - 403115"
+      }
+    },
+    {
+      "name": "Shanti scrap dealers",
+      "description": "",
+      "categories": [
+        "e_waste"
+      ],
+      "coordinates": [
+        73.855872,
+        15.622497
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+919078888860\""
+        ],
+        "urls": [],
+        "address": "Panchayat Building, Tivim, Goa - 403502"
+      }
+    },
+    {
+      "name": "Iqbal and Company",
+      "description": "",
+      "categories": [
+        "metal"
+      ],
+      "coordinates": [
+        73.810045,
+        15.597245
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+919422449319\"",
+          "\"+919970768842\""
+        ],
+        "urls": [],
+        "address": "Muser Wado Kolyala, Mapusa, Goa - 403507"
+      }
+    },
+    {
+      "name": "Shakti Sales Corporation",
+      "description": "",
+      "categories": [
+        "e_waste"
+      ],
+      "coordinates": [
+        74.010392,
+        15.400008
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-832-6535902\""
+        ],
+        "urls": [],
+        "address": "H No 87, Dhavali, Ponda, Goa - 403401"
+      }
+    },
+    {
+      "name": "Shakti Sales Corporation",
+      "description": "",
+      "categories": [
+        "e_waste"
+      ],
+      "coordinates": [
+        74.010392,
+        15.400008
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-832-6535902\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Raza Traders",
+      "description": "",
+      "categories": [
+        "paper"
+      ],
+      "coordinates": [
+        73.960925,
+        15.518591
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-9518928688\"",
+          "\"+(91)-9764752464\""
+        ],
+        "urls": [],
+        "address": "Gazi ,Muslim Wada,, Panjim National Highway, Banastrim, Goa - 403107"
+      }
+    },
+    {
+      "name": "Rajesh Traders",
+      "description": "",
+      "categories": [
+        "plastic"
+      ],
+      "coordinates": [
+        74.012315,
+        15.258149
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-9404757212\"",
+          "\"+(91)-9823905043\"",
+          "\"+(91)-9822197135 \"",
+          "\"+(91)-832-2860098\""
+        ],
+        "urls": [],
+        "address": "Plot No 30 and 31, Nessai Village Road, St Jose De Areal, Goa - 403709"
+      }
+    },
+    {
+      "name": "Sameer Malik E Waste Scrap Traders",
+      "description": "",
+      "categories": [
+        "e_waste"
+      ],
+      "coordinates": [
+        73.96386,
+        15.249757
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-8605661189\"",
+          "\"+(91)-9675507474\""
+        ],
+        "urls": [],
+        "address": "Shop No 30/B/1, Laymati, Margao Idc Road, Davorlim, Goa - 403707"
+      }
+    },
+    {
+      "name": "Star Scrap Traders",
+      "description": "",
+      "categories": [
+        "paper"
+      ],
+      "coordinates": [
+        73.947721,
+        15.594768
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-7798386020\""
+        ],
+        "urls": [],
+        "address": "House No-450, Lower Harvalem, Bicholim, Goa - 403504"
+      }
+    },
+    {
+      "name": "R K Trading Company",
+      "description": "",
+      "categories": [
+        "paper"
+      ],
+      "coordinates": [
+        74.010392,
+        15.400008
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-9923124628 \"",
+          "\"+(91)-832-2314628\""
+        ],
+        "urls": [],
+        "address": "Dhavali, Ponda, Goa - 403401"
+      }
+    },
+    {
+      "name": "Malik Enterprises",
+      "description": "",
+      "categories": [
+        "paper"
+      ],
+      "coordinates": [
+        74.010392,
+        15.400008
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-8433803313\""
+        ],
+        "urls": [],
+        "address": "B 402, Ponda, Goa - 403401"
+      }
+    },
+    {
+      "name": "Saba Trading",
+      "description": "",
+      "categories": [
+        "paper"
+      ],
+      "coordinates": [
+        73.990704,
+        15.466317
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-9821859758\"",
+          "\"+(91)-9818083793\"",
+          "\"+(91)-9891937810\""
+        ],
+        "urls": [],
+        "address": "250 C, Kundaim Industrial Estate, Goa - 403115"
+      }
+    },
+    {
+      "name": "Shabnam Steel Traders",
+      "description": "",
+      "categories": [
+        "metal"
+      ],
+      "coordinates": [
+        73.984323,
+        15.319497
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-8007059815\""
+        ],
+        "urls": [],
+        "address": "House No 381/B Manara Raia, Raia, Goa - 403720"
+      }
+    },
+    {
+      "name": "Royal Steel Traders",
+      "description": "",
+      "categories": [
+        "metal"
+      ],
+      "coordinates": [
+        73.977285,
+        15.278139
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-9637901850\"",
+          "\"+(91)-8411972867\""
+        ],
+        "urls": [],
+        "address": "Plot No 16, Shiroda Rd, Margao, Goa - 403601"
+      }
+    },
+    {
+      "name": "Krishna Metal",
+      "description": "",
+      "categories": [
+        "metal"
+      ],
+      "coordinates": [
+        73.977285,
+        15.278139
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-9890172525 \"",
+          "\"+(91)-832-2731100\""
+        ],
+        "urls": [],
+        "address": "Malbad Jet Flower Building, Masjid Road, Margao, Goa - 403601"
+      }
+    },
+    {
+      "name": "Sayed Shabbir Scrap Trader",
+      "description": "",
+      "categories": [
+        "metal"
+      ],
+      "coordinates": [
+        73.977285,
+        15.278139
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-9422437744 \"",
+          "\"+(91)-832-2756542\""
+        ],
+        "urls": [],
+        "address": "H No 95(1), Rumdamol, Margao, Goa - 403601"
+      }
+    },
+    {
+      "name": "Naim Khan Computer Scrap",
+      "description": "",
+      "categories": [
+        "e_waste"
+      ],
+      "coordinates": [
+        73.977285,
+        15.278139
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-9960957708\"",
+          "\"+(91)-9890044296\""
+        ],
+        "urls": [],
+        "address": "Margao, Goa - 403601"
+      }
+    },
+    {
+      "name": "Miyaz Scrap",
+      "description": "",
+      "categories": [
+        "e_waste"
+      ],
+      "coordinates": [
+        73.977285,
+        15.278139
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-9075112230\""
+        ],
+        "urls": [],
+        "address": "Sant Josh Areal ,Moll Road, Margao, Goa - 403601"
+      }
+    },
+    {
+      "name": "Jahir Enterprises",
+      "description": "",
+      "categories": [
+        "e_waste"
+      ],
+      "coordinates": [
+        74.050162,
+        15.523554
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-9822481870\"",
+          "\"+(91)-9930198948\""
+        ],
+        "urls": [],
+        "address": "House No No 304, Postwada Honda Sattari, Sattari, Goa - 403530"
+      }
+    },
+    {
+      "name": "Packlo Trade",
+      "description": "",
+      "categories": [
+        "metal"
+      ],
+      "coordinates": [
+        73.958333,
+        15.271944
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-832-2731486\""
+        ],
+        "urls": [],
+        "address": "Navelim Road, Margao, Goa - 403601"
+      }
+    },
+    {
+      "name": "Sai Traders",
+      "description": "",
+      "categories": [
+        "paper"
+      ],
+      "coordinates": [
+        73.96558,
+        15.26715
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [],
+        "urls": [],
+        "address": "Shop No G3, Silver Strip Building, Margao, Goa - 403601"
+      }
+    },
+    {
+      "name": "Soma Sunny and Company",
+      "description": "",
+      "categories": [
+        "metal"
+      ],
+      "coordinates": [
+        73.83894,
+        15.39495
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-832-2540959\""
+        ],
+        "urls": [],
+        "address": "Chicalim, Goa - 403711"
+      }
+    },
+    {
+      "name": "Malik Scrap",
+      "description": "",
+      "categories": [
+        "metal"
+      ],
+      "coordinates": [
+        73.96386,
+        15.249757
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"\""
+        ],
+        "urls": [],
+        "address": "Davorlim Masjid, Goa, Davorlim, Goa - 403707"
+      }
+    },
+    {
+      "name": "Radha Krishna and Company",
+      "description": "",
+      "categories": [
+        "paper"
+      ],
+      "coordinates": [
+        73.826164,
+        15.487207
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-9403041684\"",
+          "\"+(91)-9822580990\""
+        ],
+        "urls": [],
+        "address": "bute bhatt, merces road, Panjim, Goa - 403001"
+      }
+    },
+    {
+      "name": "Bharat Plastic",
+      "description": "",
+      "categories": [
+        "plastic"
+      ],
+      "coordinates": [
+        73.826164,
+        15.487207
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-9822102389\""
+        ],
+        "urls": [],
+        "address": "Panjim Kudka Santi News, Nr Church, Panjim, Goa - 403001"
+      }
+    },
+    {
+      "name": "Salman Scrap Dealer",
+      "description": "",
+      "categories": [
+        "metal"
+      ],
+      "coordinates": [
+        73.830007,
+        15.500705
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-9370694355\""
+        ],
+        "urls": [],
+        "address": "Moirawado Sanguem, Goa - 403001"
+      }
+    },
+    {
+      "name": "Ramanan Scrap Dealer",
+      "description": "",
+      "categories": [
+        "metal"
+      ],
+      "coordinates": [
+        73.867638,
+        15.62623
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-8600647571\""
+        ],
+        "urls": [],
+        "address": "A-1park, Cansa board, Tivim, Goa - 403502"
+      }
+    },
+    {
+      "name": "Bharat Scrap Dealer",
+      "description": "",
+      "categories": [
+        "metal"
+      ],
+      "coordinates": [
+        73.811031,
+        15.59098
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-832-2253101\""
+        ],
+        "urls": [],
+        "address": "Mapusa, Goa - 403507"
+      }
+    },
+    {
+      "name": "LIMRA Traders",
+      "description": "",
+      "categories": [
+        "metal"
+      ],
+      "coordinates": [
+        73.8125,
+        15.5958
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-9096611444\""
+        ],
+        "urls": [],
+        "address": "Mapusa, GOA - 403507"
+      }
+    },
+    {
+      "name": "Akram Traders",
+      "description": "",
+      "categories": [
+        "metal"
+      ],
+      "coordinates": [
+        73.8125,
+        15.5958
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-9765853174\""
+        ],
+        "urls": [],
+        "address": "Mapusa, Goa - 403507"
+      }
+    },
+    {
+      "name": "Akram Traders",
+      "description": "",
+      "categories": [
+        "metal"
+      ],
+      "coordinates": [
+        73.8125,
+        15.5958
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-9765853174\""
+        ],
+        "urls": [],
+        "address": "Mapusa, Goa - 403507"
+      }
+    },
+    {
+      "name": "R K Enterprises",
+      "description": "",
+      "categories": [
+        "metal"
+      ],
+      "coordinates": [
+        73.80344,
+        15.595419
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-9168480064\"",
+          "\"+(91)-9890324564\""
+        ],
+        "urls": [],
+        "address": "Colval Road, Mapusa, Goa - 403507"
+      }
+    },
+    {
+      "name": "Sahil Traders",
+      "description": "",
+      "categories": [
+        "metal"
+      ],
+      "coordinates": [
+        73.827727,
+        15.624694
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-9503178763\""
+        ],
+        "urls": [],
+        "address": "Survey No 203/1, Colvale, Goa - 403513"
+      }
+    },
+    {
+      "name": "Golden Scrap Marchent",
+      "description": "",
+      "categories": [
+        "metal"
+      ],
+      "coordinates": [
+        73.977285,
+        15.278139
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-7517660911\""
+        ],
+        "urls": [],
+        "address": "Near nisai industries, Margao, Goa - 403601"
+      }
+    },
+    {
+      "name": "Atifa Scrap Traders",
+      "description": "",
+      "categories": [
+        "metal"
+      ],
+      "coordinates": [
+        73.879323,
+        15.38656
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [
+          "\"+(91)-832-2551260\""
+        ],
+        "urls": [],
+        "address": "Zorinto, Cortalim, Goa - 403710"
+      }
+    },
+    {
+      "name": "Deepali Traders (Scrap Paper & Other Scrap Material)",
+      "description": "",
+      "categories": [
+        "paper"
+      ],
+      "coordinates": [
+        74.0112908,
+        15.2572157
+      ],
+      "contact": {
+        "persons": [
+          "\"Bindgopal Kashyap\""
+        ],
+        "emails": [
+          "\"deepalitrade@gmail.com\""
+        ],
+        "phones": [
+          "\"9850792891\"",
+          "\"9423112672\""
+        ],
+        "urls": [],
+        "address": "H.No. 661/Q Ward Molla, St. Sao Jose de Areal, Salcete, Curtorim, South Goa - 403709"
+      }
+    },
+    {
+      "name": "S. R. Traders (Metal Scrap Dealers)",
+      "description": "",
+      "categories": [
+        "metal"
+      ],
+      "coordinates": [
+        73.8600772,
+        15.4796479
+      ],
+      "contact": {
+        "persons": [
+          "\"Santosh\""
+        ],
+        "emails": [],
+        "phones": [
+          "\"9689776492\"",
+          "\"8329264167\""
+        ],
+        "urls": [],
+        "address": "Near Nandu Hotel, Vailem Bhat, Merces, Goa 403005"
+      }
+    },
+    {
+      "name": "Royal Ecolyf",
+      "description": "Biogas Provider",
+      "categories": [
+        "wet_waste"
+      ],
+      "coordinates": [
+        73.9985244,
+        15.179386
+      ],
+      "contact": {
+        "persons": [
+          "\"Subodh D'Souza\""
+        ],
+        "emails": [
+          "\"royalbiogoa@gmail.com\""
+        ],
+        "phones": [
+          "\" 9421240082\""
+        ],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Sameer Computer Scraps",
+      "description": "",
+      "categories": [
+        "e_waste"
+      ],
+      "coordinates": [
+        74.0208662,
+        15.4136394
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Green Goa Works",
+      "description": "Sale of Compost Units, Compost, Bio-cultures, Consultancy services",
+      "categories": [
+        "wet_waste",
+        "expert"
+      ],
+      "coordinates": [
+        73.8004396,
+        15.5924444
+      ],
+      "contact": {
+        "persons": [
+          "\"Espie Kandolkar\""
+        ],
+        "emails": [
+          "\"greengoaworks@gmail.com\""
+        ],
+        "phones": [],
+        "urls": [
+          "\"https://www.facebook.com/GreenGoaWorks/\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Ecoman Foodie",
+      "description": "Sale of mechanized organic waste treatment machines",
+      "categories": [
+        "wet_waste"
+      ],
+      "coordinates": [
+        73.822794,
+        15.497881
+      ],
+      "contact": {
+        "persons": [
+          "\"Renuka Madhav\""
+        ],
+        "emails": [
+          "\"renuka@ecoman.in\""
+        ],
+        "phones": [],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Alterenergyz",
+      "description": "Waste to Bio-gas, Sanitary waste incinerators",
+      "categories": [
+        "wet_waste",
+        "sanitary_waste"
+      ],
+      "coordinates": [
+        73.9684939,
+        15.299902
+      ],
+      "contact": {
+        "persons": [
+          "\"Samruddh Hegde Dessai \""
+        ],
+        "emails": [
+          "\"alterenergyz@gmail.com\""
+        ],
+        "phones": [],
+        "urls": [
+          "\"https://www.facebook.com/profile.php?id=100018023283347\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Sustainable Biosolutions LLP",
+      "description": "Sale of Bio-gas Plant & Composters",
+      "categories": [
+        "wet_waste"
+      ],
+      "coordinates": [
+        73.8134299999999,
+        15.399377
+      ],
+      "contact": {
+        "persons": [
+          "\"Akshat Tyagi\"",
+          "\"Raghavendraprasad Suryavanshi\""
+        ],
+        "emails": [
+          "\"info@susbio.in\""
+        ],
+        "phones": [],
+        "urls": [
+          "\"https://www.facebook.com/sustainablebiosolutions/\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Green Essentials",
+      "description": "Sale of Teracotta Composters, Biocultures & Compost ",
+      "categories": [
+        "wet_waste"
+      ],
+      "coordinates": [
+        73.8302649,
+        15.5455492
+      ],
+      "contact": {
+        "persons": [
+          "\"Karan Manral\"",
+          "\"Yogita Mehta\""
+        ],
+        "emails": [
+          "\"info@greenessentials.in\""
+        ],
+        "phones": [],
+        "urls": [
+          "\"https://www.facebook.com/greenessentials\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Hindustan Waste Treatment Pvt Ltd",
+      "description": "Accepts waste from Govt. approved bulk generators in North Goa (Panchayats, NGOs, Municiplaities)  ",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.7805155,
+        15.5287748
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [],
+        "phones": [],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "BAVISH",
+      "description": "Accepts all dry waste and e-waste",
+      "categories": [
+        "sanitary_waste",
+        "e_waste",
+        "paper",
+        "plastic",
+        "glass",
+        "metal",
+        "expert"
+      ],
+      "coordinates": [
+        73.817717,
+        15.398737
+      ],
+      "contact": {
+        "persons": [
+          "\"Baylon Gomes \""
+        ],
+        "emails": [
+          "\"bavish2011@gmail.com\""
+        ],
+        "phones": [
+          "\"+919822486662\""
+        ],
+        "urls": [
+          "\"https://www.facebook.com/bavish.goa\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Drishti Marine",
+      "description": "Govt. Appointed Beach Cleaning Contractor",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.803927,
+        15.459435
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [
+          "\"info@drishtilifesavi ng.com\""
+        ],
+        "phones": [],
+        "urls": [
+          "\"http://www.drishtimarine.com/\"",
+          "\"https://www.facebook.com/DrishtiMarine/\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Fomento Green",
+      "description": "Processes organic waste for Margao Municipal Council Only. Outside waste not accepted.",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.9903705,
+        15.2957968
+      ],
+      "contact": {
+        "persons": [],
+        "emails": [
+          "\"shridhar@fomento.com\""
+        ],
+        "phones": [],
+        "urls": [
+          "\"http://fomentogreen.blogspot.in/\""
+        ],
+        "address": ""
+      }
+    },
+    {
+      "name": "Detritus Solutions",
+      "description": "Consultancy & Turnkey Solutions for Waste Management",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.8138604,
+        15.5953326
+      ],
+      "contact": {
+        "persons": [
+          "\"Gaurav Pokle\""
+        ],
+        "emails": [
+          "\"contact@detritussolutions.com\""
+        ],
+        "phones": [
+          "\"9371194600\"",
+          "\"(832) 3290383 \""
+        ],
+        "urls": [
+          "\"www.detritussolutions.com\""
+        ],
+        "address": "Saldana Kieran Apartments, Altinho, Nr Union Restaurant, Mapusa, Goa - 403507"
+      }
+    },
+    {
+      "name": "The Energy & Resources Institute (TERI)",
+      "description": "",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.8466929,
+        15.4645082
+      ],
+      "contact": {
+        "persons": [
+          "\"Ashwini Pai\""
+        ],
+        "emails": [
+          "\"teriwrc@teri.res.in\""
+        ],
+        "phones": [],
+        "urls": [],
+        "address": ""
+      }
+    },
+    {
+      "name": "Waste Less Collective",
+      "description": "",
+      "categories": [
+        "expert"
+      ],
+      "coordinates": [
+        73.9694399,
+        15.2966712
+      ],
+      "contact": {
+        "persons": [
+          "\"Saritha Sudhakaran\""
+        ],
+        "emails": [
+          "\"wastelesscollective@gmail.com\""
+        ],
+        "phones": [
+          "\"8879990919\""
+        ],
+        "urls": [
+          "\"www.wastelesscollective.org\"",
+          "\"https://www.facebook.com/wastelesscollective/\""
+        ],
+        "address": ""
+      }
+    }
+  ]
+}

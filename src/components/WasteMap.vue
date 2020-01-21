@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>
+    <!-- <div>
       <button @click="searchMap">Search for sales</button>
     </div>
     <div>
@@ -19,7 +19,7 @@
       <br/>
 
     </div>
-    <br>
+    <br>-->
     <gmap-map
       :options="{
       zoom: 8,
@@ -28,9 +28,9 @@
       zoomControl: true,
       restriction: {latLngBounds: goaBounds, strictBounds: true}
       }"
-      :center = "center"
+      :center="center"
       style="width: 100%;  height: 600px;"
-    >  
+    >
       <gmap-marker
         :key="index"
         v-for="(m, index) in markers"
@@ -44,13 +44,30 @@
         :opened="infoBoxOpen"
         @closeclick="infoBoxOpen = false;"
       >
-        <div class="infoWindow" style="width: 300px;">
-          <h2 id="infoWindow-location">{{ currentPlace }}</h2>
+        <div class="infoWindow" style="width: 400px;">
+          <h6 id="infoWindow-location">{{ currentPlace.position.name }}</h6>
+          <i>{{currentPlace.position.description}}</i>
+          <br />
+          <br />
+          <b>Contact Info:</b>
+          <br />
+          Persons: {{currentPlace.position.contact.persons}}
+          <br />
+          Address: {{currentPlace.position.contact.address}}
+          <br />
+          Phone: {{currentPlace.position.contact.phones}}
+          <br />
+          Email: {{currentPlace.position.contact.emails}}
+          <br />
+          URL: {{currentPlace.position.contact.urls}}
+          <br />
+          <br />
+
           <button @click="closeInfoWindow();">Close</button>
         </div>
-      </gmap-info-window>      
+      </gmap-info-window>
     </gmap-map>
-    </div>
+  </div>
 </template>
 
 <script>
@@ -63,14 +80,14 @@ export default {
       places: [],
       currentPlace: null,
       infoBoxOpen: false,
-      goaBounds: {north: 15.9, south: 14.7, west: 73.2, east: 74.5},
+      goaBounds: { north: 15.9, south: 14.7, west: 73.2, east: 74.5 },
       mapData: null
     };
   },
 
   mounted() {
     this.geolocate();
-    this.mapData = require('../assets/data/Eco_Friendly_Product_Sellers.json');
+    this.mapData = require("../assets/data/goa_waste_eco_map_points.json");
     this.populateMarkers();
   },
 
@@ -93,12 +110,13 @@ export default {
       }
     },
     geolocate: function() {
-      if(navigator.geolocation) navigator.geolocation.getCurrentPosition(position => {
-        this.center = {
-          lat: position.coords.latitude,
-          lng: position.coords.longitude
-        };
-      });
+      if (navigator.geolocation)
+        navigator.geolocation.getCurrentPosition(position => {
+          this.center = {
+            lat: position.coords.latitude,
+            lng: position.coords.longitude
+          };
+        });
     },
     openInfoWindow(location) {
       this.currentPlace = location;
@@ -110,25 +128,27 @@ export default {
     populateMarkers: function() {
       this.mapData.features.forEach(feature => {
         let marker = {
-          lng: feature.geometry.coordinates[0],
-          lat: feature.geometry.coordinates[1],
-          label: feature.properties.Name,
-          properties: feature.properties
-        }
+          name: feature.name,
+          description: feature.description,
+          contact: feature.contact,
+          categories: feature.categories,
+          lng: feature.coordinates[0],
+          lat: feature.coordinates[1]
+        };
         this.markers.push({ position: marker });
         marker = null;
       });
     },
-    searchMap: function(){
+    searchMap: function() {
       let featureList = new Array();
       featureList = this.mapData.features;
       let results = new Array();
 
       featureList.forEach(element => {
-        if(element.properties.categories.includes('sales')) {
+        if (element.properties.categories.includes("sales")) {
           results.push(element);
         }
-      });    
+      });
     }
   }
 };
